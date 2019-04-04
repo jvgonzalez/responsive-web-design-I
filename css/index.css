@@ -141,7 +141,8 @@ main img {
 	display: flex;
 	justify-content: space-between;
 	align-content: center;
-	width: 870px;
+    width: 870px;
+    
 }
 
 .content:first-child section {
@@ -189,7 +190,8 @@ footer p{
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-start;
-	flex-flow: row wrap;
+    flex-flow: row wrap;
+    
 }
 
 .services section{ 
@@ -249,8 +251,82 @@ footer{
 	 margin-top: 20px;
 	 border-radius: 5px;
 	 text-decoration: none;
-	 color:inherit;
+     color:inherit;
+     
    
 }
+
+
+@media (max-width: 800px) {
+
+
+.content {
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+    width: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+    
+    
+    .navigation a:hover {
+        background-color: green;
+        color: white;
+    }
+    
+    .navigation{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .content {
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        width: 670px;
+    }
+    
+
+    .contacto{
+       margin-left: 100px;
+       margin-top: 20px;
+        width: 200px;
+    
+    }
+
+   .middle-img{
+      width: 650px;
+      margin-left: 100px;
+    
+   }
+  
+  .navigation{
+     
+     font-size: 10px;
+     margin-left:120px;
+     border-radius: 10px;
+        color: grey;
+        font-size: 12px;
+        padding: 18px 15px;
+        text-decoration: none;
+        width: 600px;
+
+  }
+
+  .main-header{
+      margin-left: 190px;
+      margin-bottom: 4px;
+      margin-top: 4px;
+      width: 440px;
+     
+      
+
+      
+      
+  }
 
 
