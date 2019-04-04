@@ -253,80 +253,128 @@ footer{
 	 text-decoration: none;
      color:inherit;
      
-   
+}
+
+.main-header{
+    margin-left: 200px;
 }
 
 
 @media (max-width: 800px) {
 
 
-.content {
-	display: flex;
-	justify-content: space-between;
-	align-content: center;
-    width: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    
-}
-
-    
-    
-    .navigation a:hover {
-        background-color: green;
-        color: white;
-    }
-    
-    .navigation{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-
     .content {
         display: flex;
         justify-content: space-between;
         align-content: center;
-        width: 670px;
-    }
-    
-
-    .contacto{
-       margin-left: 100px;
-       margin-top: 20px;
-        width: 200px;
-    
+        width: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        
     }
 
-   .middle-img{
-      width: 650px;
-      margin-left: 100px;
+        
+        
+        .navigation a:hover {
+            background-color: green;
+            color: white;
+        }
+        
+        .navigation{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .content {
+            display: flex;
+            justify-content: space-between;
+            align-content: center;
+            width: 670px;
+        }
+        
+
+        .contacto{
+        margin-left: 100px;
+        margin-top: 20px;
+            width: 200px;
+        
+        }
+
+    .middle-img{
+        width: 650px;
+        margin-left: 100px;
+        
+    }
     
-   }
-  
-  .navigation{
-     
-     font-size: 10px;
-     margin-left:120px;
-     border-radius: 10px;
-        color: grey;
-        font-size: 12px;
-        padding: 18px 15px;
-        text-decoration: none;
+    .navigation{
+        
+        font-size: 10px;
+        margin-left:120px;
+        border-radius: 10px;
+            color: grey;
+            font-size: 12px;
+            padding: 18px 15px;
+            text-decoration: none;
+            width: 600px;
+
+    }
+
+    .main-header{
+        margin-left: 190px;
+        margin-bottom: 4px;
+        margin-top: 4px;
+        width: 440px;
+        
+    }
+
+}
+
+
+@media (max-width: 500px){
+     .content{
+         display: flex;
+         flex-direction: column;
+         width: 440px;
+         
+         
+     }
+
+     .contacto{
+        margin-left: 220px;
+      }
+
+    .navigation{
+        
+        display: flex;
+        flex-direction: column;
         width: 600px;
+        height: 100px;
+        font-size: 200px;
+        margin-bottom: 80px;
+        
+    }
 
-  }
+    .navigation a{
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
 
-  .main-header{
-      margin-left: 190px;
-      margin-bottom: 4px;
-      margin-top: 4px;
-      width: 440px;
-     
-      
+    .middle-img{
 
-      
-      
-  }
+        width: 400px;
+        height: 120px;
+        margin-left: 220px;  
+    }
+
+    .content section{
+       margin-top: 20px;
+    }
+
+
+}
+
+
+
 
 
